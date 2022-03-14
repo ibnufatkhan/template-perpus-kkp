@@ -64,7 +64,7 @@
 
 <?php if ($sysconf['template']['classic_popular_collection']) : ?>
 <section class="mt-5 container">
-    <h4 class=" mb-4">
+    <h4 class="text-center text-light py-3 bg-blue-dark mb-4">
         <?php echo __('Koleksi Populer'); ?>
         <br>
         <small class="subtitle-section"><?php echo __('Koleksi yang sering diakses dan dimanfaatkan oleh Pemustaka Bahari. Selamat membaca!
@@ -79,7 +79,7 @@
 
 <?php if ($sysconf['template']['classic_new_collection']) : ?>
 <section class="mt-5 container">
-    <h4 class=" mb-4">
+    <h4 class="text-center text-light py-3 bg-blue-dark mb-4">
         <?php echo __('Koleksi Terbaru');?>
         <br>
         <small class="subtitle-section"><?php echo __('Koleksi baru yang dapat Pemustaka Bahari baca. Ikuti media sosial Archivelago untuk mendapatkan informasi mengenai koleksi terbaru dan rekomendasi literatur Archivelago Indonesia Marine Library');?></small>
@@ -92,9 +92,9 @@
 <?php endif; ?>
 
 <?php if ($sysconf['template']['classic_top_reader']) : ?>
-<section class="mt-5 bg-white">
+<section class="mt-5 bg-blue-dark">
     <div class="container py-5">
-        <h4 class="mb-4">
+        <h4 class="text-center text-light mb-4">
             <?php echo __('Anggota Perpustakaan Teraktif');?>
             <br>
             <small class="subtitle-section"><?php echo __('Berikut anggota perpustakaan yang sering melakukan peminjaman koleksi perpustakaan. Untuk Anggota Perpustakaan teraktif berkesempatan menjadi Pemustaka Terbaik yang akan mendapatkan merchandise menarik dari Archivelago Indonesia Marine Library');?></small>

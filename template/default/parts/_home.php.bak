@@ -26,30 +26,30 @@
 
 <div id="slims-home">
 <section class="mt-5 container">
-    <h4 class="text-secondary text-center text-thin mt-5 mb-4"><?php echo __('Subyek yang berkaitan dengan Kelautan dan Perikanan'); ?></h4>
+    <h4 class="text-secondary text-center text-thin mt-5 mb-4"><?php echo __('Subjek yang berkaitan dengan Kelautan dan Perikanan'); ?></h4>
     <ul class="topic d-flex flex-wrap justify-content-center px-0">
         <li class="d-flex justify-content-center align-items-center m-2">
-            <a href="index.php?callnumber=8&search=search" class="d-flex flex-column">
-                <img src="<?php echo assets('images/8-books.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                <?php echo __('Literature'); ?>
+            <a href="index.php?keywords=Perikanan%20Tangkap&search=search" class="d-flex flex-column">
+                <img src="<?php echo assets('images/Perikanan_Tangkap.png'); ?>" width="80" class="mb-3 mx-auto"/>
+                <?php echo __('Perikanan Tangkap'); ?>
             </a>
         </li>
         <li class="d-flex justify-content-center align-items-center m-2">
-            <a href="index.php?callnumber=3&search=search" class="d-flex flex-column">
-                <img src="<?php echo assets('images/3-diploma.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                <?php echo __('Social Sciences'); ?>
+            <a href="index.php?keywords=Perikanan%20Budidaya&search=search" class="d-flex flex-column">
+                <img src="<?php echo assets('images/Perikanan_Budidaya.png'); ?>" width="80" class="mb-3 mx-auto"/>
+                <?php echo __('Perikanan Budidaya'); ?>
             </a>
         </li>
         <li class="d-flex justify-content-center align-items-center m-2">
-            <a href="index.php?callnumber=6&search=search" class="d-flex flex-column">
-                <img src="<?php echo assets('images/6-blackboard.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                <?php echo __('Applied Sciences'); ?>
+            <a href="index.php?keywords=Pengolahan%20Ikan&search=search" class="d-flex flex-column">
+                <img src="<?php echo assets('images/Pengolahan_Ikan.png'); ?>" width="80" class="mb-3 mx-auto"/>
+                <?php echo __('Pengolahan Ikan'); ?>
             </a>
         </li>
         <li class="d-flex justify-content-center align-items-center m-2">
-            <a href="index.php?callnumber=7&search=search" class="d-flex flex-column">
-                <img src="<?php echo assets('images/7-quill.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                <?php echo __('Art & Recreation'); ?>
+            <a href="index.php?keywords=Pulau%20Kecil&search=search" class="d-flex flex-column">
+                <img src="<?php echo assets('images/Pulau_Kecil.png'); ?>" width="80" class="mb-3 mx-auto"/>
+                <?php echo __('Pulau Kecil'); ?>
             </a>
         </li>
         <li class="d-flex justify-content-center align-items-center m-2">
@@ -64,7 +64,7 @@
 
 <?php if ($sysconf['template']['classic_popular_collection']) : ?>
 <section class="mt-5 container">
-    <h4 class=" mb-4">
+    <h4 class="text-center text-light py-3 bg-blue-dark mb-4">
         <?php echo __('Koleksi Populer'); ?>
         <br>
         <small class="subtitle-section"><?php echo __('Koleksi yang sering diakses dan dimanfaatkan oleh Pemustaka Bahari. Selamat membaca!
@@ -79,7 +79,7 @@
 
 <?php if ($sysconf['template']['classic_new_collection']) : ?>
 <section class="mt-5 container">
-    <h4 class=" mb-4">
+    <h4 class="text-center text-light py-3 bg-blue-dark mb-4">
         <?php echo __('Koleksi Terbaru');?>
         <br>
         <small class="subtitle-section"><?php echo __('Koleksi baru yang dapat Pemustaka Bahari baca. Ikuti media sosial Archivelago untuk mendapatkan informasi mengenai koleksi terbaru dan rekomendasi literatur Archivelago Indonesia Marine Library');?></small>
@@ -94,7 +94,7 @@
 <?php if ($sysconf['template']['classic_top_reader']) : ?>
 <section class="mt-5 bg-white">
     <div class="container py-5">
-        <h4 class="mb-4">
+        <h4 class="text-center text-light mb-4">
             <?php echo __('Anggota Perpustakaan Teraktif');?>
             <br>
             <small class="subtitle-section"><?php echo __('Berikut anggota perpustakaan yang sering melakukan peminjaman koleksi perpustakaan. Untuk Anggota Perpustakaan teraktif berkesempatan menjadi Pemustaka Terbaik yang akan mendapatkan merchandise menarik dari Archivelago Indonesia Marine Library');?></small>
