@@ -31,4 +31,4 @@ $ucs['serveraddr'] = 'http://perpustakaan.kkp.go.id/union/'; // UCS server addre
 $ucs['serverversion'] = 2; // UCS server version
 $node['id'] = 'perpusupt--'; // node ID
 $node['password'] = 'ArchivelagO2022!'; // default is s0beautifulday
-$node['name'] = 'Perpustakaan UPT --'; // node name
+$node['name'] = 'Perpustakaan --'; // node name

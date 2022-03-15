@@ -63,7 +63,7 @@
 </section>
 
 <?php if ($sysconf['template']['classic_popular_collection']) : ?>
-<section class="mt-5 container">
+<section class="text-center mt-5 container">
     <h4 class="text-center text-light py-3 bg-blue-dark mb-4">
         <?php echo __('Koleksi Populer'); ?>
         <br>
@@ -78,7 +78,7 @@
 <?php endif; ?>
 
 <?php if ($sysconf['template']['classic_new_collection']) : ?>
-<section class="mt-5 container">
+<section class="text-center mt-5 container">
     <h4 class="text-center text-light py-3 bg-blue-dark mb-4">
         <?php echo __('Koleksi Terbaru');?>
         <br>
@@ -92,7 +92,7 @@
 <?php endif; ?>
 
 <?php if ($sysconf['template']['classic_top_reader']) : ?>
-<section class="mt-5 bg-white">
+<section class="mt-5 bg-blue-dark">
     <div class="container py-5">
         <h4 class="text-center text-light mb-4">
             <?php echo __('Anggota Perpustakaan Teraktif');?>
