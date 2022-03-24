@@ -24,7 +24,7 @@ if (isset($_GET['select_lang'])) {
 ?>
 <div class="vegas-slide" style="position: fixed; z-index: -1"></div>
 <div class="flex h-screen w-full" id="visitor-counter" style="background: rgba(0,0,0,0.3)">
-    <div class="bg-pink w-full md:w-1/3 px-8 pt-8 pb-3 flex flex-col justify-between">
+    <div class="bg-blue-lighter w-full md:w-1/3 px-8 pt-8 pb-3 flex flex-col justify-between">
         <div>
             <h3 class="font-light mb-2"><?= __('Welcome to ').$sysconf['library_name']; ?></h3>
             <p class="lead">

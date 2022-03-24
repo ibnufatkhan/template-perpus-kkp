@@ -11,21 +11,9 @@ $main_menus = [
     'text' => __('Home'),
     'url' => 'index.php'
   ],
-    'web' => [
-    'text' => __('Koleksi e-Book'),
-    'url' => 'http://perpustakaan.kkp.go.id/knowledgerepository/index.php?title=&author=&subject=&isbn=&colltype=0&location=0&gmd=PDF&search=search'	
-],
-  'login' => [
-    'text' => __('Login Pustakawan'),
-    'url' => 'index.php?p=login'
-  ],
   'visitor' => [
-    'text' => __('Buku Tamu'),
+    'text' => __('Daftar Hadir'),
     'url' => 'index.php?p=visitor'
-  ],
-  'libinfo' => [
-    'text' => __('Information'),
-    'url' => 'index.php?p=libinfo'
   ],
   'news' => [
     'text' => __('News'),
@@ -34,6 +22,10 @@ $main_menus = [
   'librarian' => [
     'text' => __('Librarian'),
     'url' => 'https://kkp.go.id/setjen/perpustakaan/page/237-struktur-organisasi-perpustakaan-kementerian-kelautan-dan-perikanan'
+	  ],
+  'login' => [
+    'text' => __('Login'),
+    'url' => 'index.php?p=login'
   ]
 ];
 ?>
@@ -124,6 +116,40 @@ HTML;
               <li class="nav-item <?= $menu_member_active; ?>">
                   <a class="nav-link" href="index.php?p=member"><?= __('Member Area') ?></a>
               </li>
+			  
+
+
+
+
+
+
+
+
+
+
+ <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                  Koleksi Digital
+              </a>
+              <div class="dropdown-menu bg-grey-lighter dropdown-menu-lg-right" aria-labelledby="dropdownMenuButton">
+                  
+                      <a class="dropdown-item" href="http://perpustakaan.kkp.go.id/knowledgerepository/index.php?title=&author=&subject=&isbn=&colltype=0&location=0&gmd=TEXT-PDF&search=search">eBook dan Teks</a>
+                      <a class="dropdown-item" href="http://perpustakaan.kkp.go.id/knowledgerepository/index.php??title=&author=&subject=&isbn=&colltype=0&location=0&gmd=PDF&search=search">eBook</a>
+                      </div>
+          </li>
+
+
+
+
+
+
+
+
+
+			  
+			  
+			  
+			  
           <?php } ?>
             <li class="nav-item dropdown">
               <?php
