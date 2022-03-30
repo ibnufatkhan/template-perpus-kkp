@@ -378,21 +378,21 @@ $sysconf['pdf']['viewer'] = 'pdfjs'; # 'pdfjs'
 /**
  * UCS global settings
  */
-$sysconf['ucs']['enable'] = false;
+$sysconf['ucs']['enable'] = true;
 // auto delete same record on UCS?
-$sysconf['ucs']['auto_delete'] = false;
+$sysconf['ucs']['auto_delete'] = true;
 // auto insert new record to UCS?
-$sysconf['ucs']['auto_insert'] = false;
+$sysconf['ucs']['auto_insert'] = true;
 // UCS server address. NO TRAILING SLASH! for local testing on Windows machine don't use localhost, use 127.0.0.1 instead
-$sysconf['ucs']['serveraddr'] = 'http://localhost/ucs';
+$sysconf['ucs']['serveraddr'] = 'http://perpustakaan.kkp.go.id/union/';
 // UCS server version
 $sysconf['ucs']['serverversion'] = 2;
 // node ID
-$sysconf['ucs']['id'] = 'slims-node';
+$sysconf['ucs']['id'] = 'perpustakaanupt--';
 // default is s0beautifulday
-$sysconf['ucs']['password'] = '2325f677e21c1613909c953eb03c57352259cc5d';
+$sysconf['ucs']['password'] = 'ArchivelagO123!';
 // node name
-$sysconf['ucs']['name'] = 'SLiMS Library';
+$sysconf['ucs']['name'] = 'Perpustakaan UPT --';
 
 /**
  * Z39.50 copy cataloguing sources
@@ -508,13 +508,13 @@ if ($sysconf['captcha']['forgot']['enable']) {
  */
 $sysconf['mail']['SMTPSecure'] = 'ssl'; // ssl or tls
 $sysconf['mail']['enable'] = true;
-$sysconf['mail']['server'] = 'ssl://smtp.gmail.com:465'; // SMTP server
+$sysconf['mail']['server'] = 'ssl://smtp.mail.kkp.go.id:465'; // SMTP server
 $sysconf['mail']['server_port'] = 465; // the SMTP port
 $sysconf['mail']['auth_enable'] = true; // enable SMTP authentication
-$sysconf['mail']['auth_username'] = 'admin'; // SMTP account username
-$sysconf['mail']['auth_password'] = 'admin'; // SMTP account password
-$sysconf['mail']['from'] = 'admin@localhost';
-$sysconf['mail']['from_name'] = 'SLiMS Administrator';
+$sysconf['mail']['auth_username'] = 'perpustakaan'; // SMTP account username
+$sysconf['mail']['auth_password'] = 'pass1245'; // SMTP account password
+$sysconf['mail']['from'] = 'perpustakaan@kkp.go.id';
+$sysconf['mail']['from_name'] = 'Perpustakaan KKP';
 $sysconf['mail']['reply_to'] = &$sysconf['mail']['from'];
 $sysconf['mail']['reply_to_name'] = &$sysconf['mail']['from_name'];
 
